@@ -1,0 +1,398 @@
+ .navbar {
+	font-family:'Averia Sans Libre';
+}
+.mid-link {
+	padding-left:400px;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.circle {
+	font-family:'Averia Sans Libre';
+	height:60px;
+	width:60px;
+	position:fixed;
+	margin-bottom:0;
+	left:48%;
+	background-color:#45A4E8;
+	border-radius:50px;
+	z-index:9999;
+	color:#333;
+	bottom:20px;
+}
+.circ-green {
+	background-color:#44E567;
+}
+.circ-yellow {
+	background-color:#E5E044;
+    color:
+}
+.circle:hover {
+	background-color:#4D4D4D;
+	color:#ccc;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+
+.circle:hover  .navbar {
+	opacity:1.0;
+}
+
+.circle p  {
+	font-size: 27px;
+    line-height: 204%;
+    padding-left: 17px;
+	cursor:default;
+}
+
+.navbar-fixed-bottom {
+	display: none;
+}
+
+/* container */
+
+.space {
+	height:50px;
+}
+
+.blue {
+	background:#45A4E8;
+	color:#fff;
+	font-family:'Averia Sans Libre';
+	font-weight:700;
+	padding:10px;
+	padding-left:20px;
+	border-radius:0 0 5px 5px;
+}
+.red {
+    background:#E54F44;
+	color:#fff;
+	font-family:'Averia Sans Libre';
+	font-weight:700;
+	padding:10px;
+	padding-left:20px;
+	border-radius:0 0 5px 5px;
+}
+.yello {
+	background:#E5E044;
+	color:#fff;
+	font-family:'Averia Sans Libre';
+	font-weight:700;
+	padding:10px;
+	padding-left:20px;
+	border-radius:0 0 5px 5px;
+}
+.green {
+	background:#44E567;
+	color:#fff;
+	font-family:'Averia Sans Libre';
+	font-weight:700;
+	padding:10px;
+	padding-left:20px;
+	border-radius:0 0 5px 5px;
+}
+
+
+.greentxt {
+	color:#3ABC56;
+	font-family:'Averia Sans Libre';
+	font-weight:700;
+}
+.yellotxt {
+	color:#A39E13;
+	font-family:'Averia Sans Libre';
+	font-weight:700;
+}
+
+
+
+.bordered {
+	border-bottom:1px solid #ccc;
+}
+
+.heading-link {
+	color:#81959A;
+	
+}
+
+.heading-link:hover {
+	text-decoration:none;	
+}
+
+.blue a {
+	color:#ccc;
+}
+
+
+/*---------------------*/
+/* Search */
+/*---------------------*/
+.search-circle {
+	font-family:'Averia Sans Libre';
+	height:60px;
+	width:120px;
+	position:fixed;
+	background-color:#666;
+	border-radius:10px 0 0 10px;
+	z-index:99;
+	right:0;
+	bottom:150px;
+	cursor:pointer;
+	color:#ccc;
+}
+
+.search-circle:hover {
+	background:#FF902F;
+	color:#333;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;	
+}
+
+.search-circle span {
+	font-size: 27px;
+    line-height: 204%;
+    padding-left: 17px;
+	
+}
+
+.search-circle p {
+	font-size:40px;	
+}
+.floaty {
+	position:fixed;	
+	right:0;
+	bottom:100px;
+	display:none;
+	z-index:100;
+	width:350px;
+}
+
+.login-tri {
+	font-family:'Averia Sans Libre';
+	height:60px;
+	width:100px;
+	position:fixed;
+	background-color:#333;
+	border-radius:500px 0 0 500px ;
+	z-index:2;
+	right:0;
+	bottom:250px;
+	cursor:pointer;
+	color:#ccc;
+    text-decoration:none;
+    
+}
+.login-tri:hover {
+	background:#FF902F;
+	color:#333;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;	
+    text-decoration:none;
+}
+
+.login-tri p {
+	font-size:25px;
+      padding: 12px;
+    text-align: right;
+   	 
+}
+.floata {
+	position:fixed;	
+	right:0;
+	bottom:150px;
+	display:none;
+	z-index:400;
+	width:400px;
+    border-radius:10px;
+    text-decoration:none;
+}
+
+
+
+/*------------ Home ----------------*/
+.box , .box2 , .box3 {
+	height: 150px;
+    position: relative;
+    top: 150px;
+    width: 150px;
+	padding-top:45px;
+	z-index:1;	
+}
+.box:hover a , .box2:hover a , .box3:hover a {
+	color:rgba(108,60,22,1.00);
+}
+.redd {
+	background-image:url(../img/red.png);
+	height: 150px;
+    position: absolute;
+    width: 150px;
+	z-index: -999999999;
+	display:none;
+	top:0;
+    left:-15px;
+}
+
+.yel {
+	background-image:url(../img/yel.png);
+	height: 150px;
+    position: absolute;
+    width: 150px;
+	z-index: -999999999;
+	display:none;
+	top:0;
+    left:-25px;
+}
+.bluee {
+	background-image:url(../img/blue.png);
+	height: 150px;
+    position: absolute;
+    width: 150px;
+	z-index: -999999999;
+	display:none;
+	top:0;
+    left:-15px;
+}
+
+.btns a {
+	color:#333;
+	font-size:35px;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+/*----------- Game & Gallery -----------*/
+.game-head {
+	color:#333 !important; 
+}
+
+.thumbnail img:hover {
+    opacity: 0.5;
+}
+
+
+.stop{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1;
+}
+
+.spacing {
+	height:200px;	
+}
+
+.thumbnail img {
+	object-position:center;
+}
+.mini-space {
+	height:20px;
+}
+
+.game-cate a{
+	color:rgba(148,118,118,1.00);
+	margin-top:20px;
+}
+
+.coloring {
+	background:rgba(185,224,239,1.00);
+}
+.coloring-g {
+	background:#B8EDC6;
+}
+.coloring-y {
+	background:#EAE9B6;
+}
+
+.sett {
+	object-position:center;
+}
+
+.fix {
+    height:270px;
+    
+}
+
+.fixx {
+    object-position: center;
+}
+
+.fixx img {
+    width:200px;
+}
+
+.ins {
+    object-position: center;
+    text-align:center;
+}
+
+.ins img {
+    margin:auto;
+}
+
+/*---- Game Detail ------*/
+
+.cont {
+	text-align:center;
+}
+
+.ot img {
+	object-position:center;
+	
+}
+
+/*------- BLOG Detail -----------*/
+
+.mini-blue {
+	background-color:rgba(82,196,220,0.70);
+	font-size:12px;	
+	padding-top:10px;
+	margin-top:5px;
+	color:#666;
+	font-family:'Averia Sans Libre';
+	border-radius:500px;
+    text-align:center;
+}
+
+.title {
+	font-size:45px;
+	line-height:50px;
+	color:#333;
+	font-family:'Open Sans';
+}
+
+.comment-blog {
+	border:1px solid #ccc;
+	border-bottom:none;
+	border-radius:10px 10px 0 0;
+}
+.comment-blog h3 {
+	padding-left:10px;
+}
+.comment-close {
+	border:1px solid #ccc;
+	border-top:none;
+	border-radius:0 0 10px 10px;
+}
+
+.comment {
+	padding-left:30px;
+	font-size:16px;
+	font-family:'Open Sans';
+}
+
+.blog-comment p {
+	font-family:'Open Sans';
+}
+
+.blog-comment {
+	padding-left:20px;
+}
